@@ -28,3 +28,27 @@ InsightED is a decision-support data analytics system designed for universities.
 * **The Question:** "Which specific courses are causing the highest rate of negative student feedback, and what specific topics or teaching styles are driving this dissatisfaction?"
 * **The Type of Data Needed:** We need end-of-semester student survey feedback. This comes directly from the university's evaluation systems. It represents quantitative metrics (ratings from 1-5 on faculty and course difficulty) and qualitative metrics (open-ended text comments from students).
 * **The Useful Insight:** Simply stating "Data Structures has a 2.5 rating" is just a fact, not an insight. An actionable insight would be: *"Data Structures has a 40% negative feedback rate specifically because students are frequently using the phrases 'fast teaching' and 'too theoretical' in their reviews, indicating the curriculum pace must be adjusted immediately."*
+
+---
+
+## 🛠️ Environment Setup: Python & Anaconda
+
+### 1. System Specifications
+* **Operating System:** Windows
+* **Python Version:** 3.13.0
+* **Anaconda Version:** [Pending Installation]
+
+### 2. Installation Steps Followed
+1. **Python:** Verified the existing global Python installation via terminal.
+2. **Anaconda:** Downloaded the Anaconda installer for Windows and completed the setup wizard.
+3. **Verification:** Validated that both Python and Conda commands are globally accessible and return the correct version numbers.
+
+### 3. Verification Commands & Outputs
+```bash
+> python --version
+Python 3.13.0
+
+> conda --version
+# (Please run this in your terminal after installing Anaconda and paste the output here)
+conda 24.x.x 
+```
