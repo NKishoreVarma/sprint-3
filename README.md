@@ -52,3 +52,17 @@ Python 3.13.0
 # (Please run this in your terminal after installing Anaconda and paste the output here)
 conda 24.x.x 
 ```
+
+---
+
+## 📓 Jupyter Notebook Workspace Setup
+
+### 1. Workspace Organization
+To ensure the project remains organized and free from clutter, we utilize a dedicated folder structure for running our Jupyter notebooks:
+* **Root Directory**: `sprint-3/` (This must be the directory from which Jupyter is launched to maintain correct relative paths).
+* **Notebooks Directory**: `sprint-3/notebooks/` (All notebooks should be saved inside this explicit folder).
+
+### 2. Verification Steps Followed
+1. Launched Jupyter from the project root using `jupyter notebook`.
+2. Verified the Jupyter Home interface displays the correct project folders.
+3. Successfully created and executed a Python print cell within the newly established `notebooks/01_jupyter_setup.ipynb` testing notebook.
